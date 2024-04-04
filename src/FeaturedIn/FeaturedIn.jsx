@@ -1,5 +1,7 @@
 import React from 'react';
-import './FeaturedIn-Module.css'; // Make sure to import your CSS file
+import './FeaturedIn.module.css';
+
+//Check the font size
 
 function App() {
   return (
@@ -13,7 +15,7 @@ function App() {
       <body>
         <section>
           <div className="featured-in-section">
-            <h1 style={{ textAlign: 'center', fontSize: '50pt' }}>Featured In</h1>
+            <h1 style={{ textAlign: 'center', fontSize: '50pt' }}>Featured In</h1> 
             <br />
             <br />
             <div className="featured-in-row">
